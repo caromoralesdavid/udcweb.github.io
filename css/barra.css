@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(105, 146, 133);
+}
+
+.header {
+    background-color: rgb(107, 107, 139);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo {
+    cursor: pointer;
+    border-radius: 60px;
+}
+
+.header .logo img {
+    height: 80px;
+    width: auto;
+    border-radius: 60px;
+    transition: all 0.2;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links a {
+    font-size: 700;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+    color: #ffbc0e;
+}
+
+.header .btn buttom {
+    font-weight: 700;
+    color: rgb(7, 173, 118);
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.2s ease 0s;
+}
+
+.header .btn buttom:hover {
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform: scale(1.1);
+}
+
+/* Estrategias  */
+.estrategias-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.estrategias-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.estrategias-container h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.estrategias-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.estrategias-container img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(107, 107, 139);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer footer p {
+    font-size: 16px;
+    font-weight: bold;
+}
